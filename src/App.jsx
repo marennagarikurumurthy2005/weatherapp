@@ -121,7 +121,8 @@ const App = () => {
         </div>
 
         {/* Day Selector */}
-        <div className="flex justify-center gap-4 mb-6">
+
+        {/* <div className="flex justify-center gap-4 mb-6">
           {["yesterday", "today", "tomorrow"].map((d) => (
             <button
               key={d}
@@ -135,7 +136,7 @@ const App = () => {
               {d.charAt(0).toUpperCase() + d.slice(1)}
             </button>
           ))}
-        </div>
+        </div> */}
 
         {/* Loading */}
         {loading && <p className="text-center font-semibold text-black">Fetching weather...</p>}
